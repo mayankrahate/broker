@@ -1,0 +1,664 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.content {
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.status-radio {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.commission-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+.react-datepicker-wrapper{
+  width:auto;
+}
+.commission-table th,
+.commission-table td {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+.commission-table th {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+/* App.css */
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+
+.header {
+ 
+  background-color: #216ba5;
+  color: #fff;
+  text-align: center;
+}
+
+
+.header {
+ font-size: 12px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.footer {
+
+  background-color: #7c9944;
+  color: #fff;
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+
+  margin-left: 10px;
+}
+
+select {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.react-datepicker-wrapper {
+  display: inline-block;
+}
+
+.react-datepicker__input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.react-datepicker__input-container input {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.commission-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.commission-table th,
+.commission-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.commission-table th {
+  background-color: #0161a0;
+  color: #fff;
+}
+
+.total-commission {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.no-data-message {
+  text-align: center;
+  color: #888;
+}
+
+.react-datepicker {
+  font-size: 14px;
+}
+
+.react-datepicker__header {
+  background-color: #2196f3;
+  border-bottom: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #fff;
+  text-align: center;
+}
+
+.react-datepicker__current-month {
+  font-weight: bold;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day {
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 2px;
+}
+
+.react-datepicker__day--selected {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.react-datepicker__day--outside-month {
+  color: #ccc;
+}
+
+.react-datepicker__month-container {
+  width: 250px;
+}
+
+.react-datepicker__month-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.react-datepicker__week {
+  display: flex;
+  flex-basis: 14.2857142857%;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.react-datepicker__navigation {
+  top: 10px;
+  background: none;
+  line-height: 1;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.react-datepicker__navigation--previous {
+  margin-right: 10px;
+}
+
+.react-datepicker__navigation--next {
+  margin-left: 10px;
+}
+
+.react-datepicker__year-dropdown-container,
+.react-datepicker__month-dropdown-container,
+.react-datepicker__month-year-dropdown-container {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.react-datepicker__year-dropdown,
+.react-datepicker__month-dropdown,
+.react-datepicker__month-year-dropdown {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 14px;
+  width: 70px;
+  text-align: center;
+}
+
+.react-datepicker__year-dropdown:hover,
+.react-datepicker__month-dropdown:hover,
+.react-datepicker__month-year-dropdown:hover {
+  background-color: #e6e6e6;
+}
+
+.react-datepicker__year-dropdown--scrollable,
+.react-datepicker__month-dropdown--scrollable,
+.react-datepicker__month-year-dropdown--scrollable {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.react-datepicker__year-option,
+.react-datepicker__month-option,
+.react-datepicker__month-year-option {
+  line-height: 20px;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
+.react-datepicker__year-option:hover,
+.react-datepicker__month-option:hover,
+.react-datepicker__month-year-option:hover {
+  background-color: #e6e6e6;
+}
+
+.react-datepicker__year-option--selected,
+.react-datepicker__month-option--selected,
+.react-datepicker__month-year-option--selected {
+  font-weight: bold;
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.react-datepicker__year-option--disabled,
+.react-datepicker__month-option--disabled,
+.react-datepicker__month-year-option--disabled {
+  color: #ccc;
+  cursor: default;
+}
+
+.react-datepicker__week-number {
+  color: #ccc;
+}
+/* App.css */
+
+
+
+/* Container styles */
+.container {
+
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+/* CommissionTable styles */
+.commission-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.commission-table th,
+.commission-table td {
+  padding: 8px;
+  border: 1px solid #cccccc;
+}
+
+/* Total commission styles */
+.total-commission {
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* No data message styles */
+.no-data-message {
+  margin-top: 20px;
+  text-align: center;
+  font-style: italic;
+  color: #999999;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #f2f2f2;
+  
+  text-align: center;
+}
+
+.footer-brand {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #000000;
+}/* Add this CSS class to the active tab */
+.active-tab {
+  font-weight: bold;
+}
+
+/* Rest of the CSS */
+
+.navbar {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar-menu ul li {
+  margin-right: 15px;
+}
+
+.navbar-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-menu ul li a.active-tab {
+  font-weight: bold;
+  color:#2196f3;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-user a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.material-icons {
+  font-size: 1.2rem;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Other styles for the rest of the app */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.header-logo img {
+  height: 25px; /* Adjust the height as needed */
+  padding-left: 20px;
+}
+
+.header-title {
+  text-align: center;
+  
+  flex-grow: 1; /* Allow the title to grow and occupy the remaining space */
+}
+
+.header-title h1 {
+  margin: 0;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.filters input[type="text"],
+.filters select {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filters select {
+  padding: 6px;
+}
+
+.filters input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+.filters select::placeholder {
+  color: #aaa;
+}
+
+.filters select {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #aaa;
+  width: 150px;
+}
+
+.filters select option {
+  background-color: #fff;
+  color: #333;
+}
+
+.totals {
+  display: flex;
+  
+
+}
+.total {
+    display: flex;
+  justify-content: flex-end;
+margin-left:45%;
+
+}
+.export {
+  display: flex;
+  justify-content: flex-start;
+ 
+ 
+}
+.total p {
+  margin: 5px 0;
+  font-weight: bold;
+    margin-left: 20px;
+}
+.export p {
+  margin: 5px 0;
+  font-weight: bold;
+    margin-left: 20px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #eaeaea;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.totals {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+.effect8
+{
+    position:relative;
+    -webkit-box-shadow:0 3px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 3px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 3px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect8:before, .effect8:after
+{
+  content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect8:after
+{
+  right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+body {background:#ccc}
+
+.box h3{
+  text-align:center;
+  position:relative;
+  top:80px;
+}
+.box {
+  
+  background:#FFF;
+
+}
+
+.effect7
+{
+      min-height: 17.5px;
+  position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+  content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect7:after
+{
+  right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+.left5
+{
+  margin-left:5px;
+}
+
+
+#custom-date-range label,
+#custom-date-range input {
+  display: block;
+ 
+}
