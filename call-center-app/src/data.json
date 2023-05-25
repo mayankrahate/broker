@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "address": "123 Main Street",
+    "age": 35,
+    "mobile": "9194541333",
+    "email": "mk@mk.com",
+    "customerSince": "2015",
+    "totalCoverage": "$5000",
+    "deductible": "$500",
+    "claimedAmount": "$200",
+    "numberOfPets": 2,
+    "lastClaim": {
+      "petName": "Buddy",
+      "claimAmount": "$100",
+      "approvedAmount": "$80",
+      "claimDate": "2022-08-15"
+    },
+    "pets": [
+      {
+        "id": 1,
+        "name": "Buddy",
+        "type": "Dog",
+        "age": "4yrs",
+        "vaccineStatus": "Up to date"
+      },
+      {
+        "id": 2,
+        "name": "Max",
+        "age": "2yrs",
+        "type": "Cat",
+        "vaccineStatus": "Incomplete"
+      }
+    ],
+    "lastCall": {
+      "date": "2023-05-22",
+      "reason": "Inquire about coverage"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "address": "456 Oak Street",
+    "age": 42,
+    "mobile": "112",
+    "email": "mk@mk.com",
+    "customerSince": "2017",
+    "totalCoverage": "$8000",
+    "deductible": "$1000",
+    "claimedAmount": "$500",
+    "numberOfPets": 1,
+    "lastClaim": {
+      "petName": "Charlie",
+      "claimAmount": "$300",
+      "approvedAmount": "$250",
+      "claimDate": "2023-04-10"
+    },
+    "pets": [
+      {
+        "id": 3,
+        "name": "Charlie",
+        "age": "3yrs",
+        "type": "Dog",
+        "vaccineStatus": "Up to date"
+      }
+    ],
+    "lastCall": {
+      "date": "2023-05-18",
+      "reason": "Update contact information"
+    }
+  }
+]

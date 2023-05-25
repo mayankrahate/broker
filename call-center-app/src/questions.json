@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "What is the coverage for pet insurance?",
+    "answer": "Pet insurance provides coverage for veterinary expenses related to accidents, illnesses, and preventive care for pets."
+  },
+  {
+    "id": 2,
+    "question": "What does the deductible mean in pet insurance?",
+    "answer": "The deductible is the amount you must pay out of pocket before the insurance coverage starts. It is usually an annual amount."
+  },
+  {
+    "id": 3,
+    "question": "Can I choose my veterinarian with pet insurance?",
+    "answer": "Most pet insurance policies allow you to choose any licensed veterinarian for your pet's treatment."
+  },
+  {
+    "id": 4,
+    "question": "Are pre-existing conditions covered by pet insurance?",
+    "answer": "Pre-existing conditions are generally not covered by pet insurance. It is important to enroll your pet when they are healthy to maximize coverage."
+  },
+  {
+    "id": 5,
+    "question": "What is the waiting period for pet insurance coverage?",
+    "answer": "Pet insurance policies often have a waiting period after enrollment before the coverage becomes effective. The waiting period can vary depending on the insurance provider and the type of coverage."
+  }
+]
